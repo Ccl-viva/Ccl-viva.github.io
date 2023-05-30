@@ -17,8 +17,8 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 [sidebar.avatar]
 enabled = true
-local = true
-src = "img/avatar.png"
+local = false
+src = "https://avatars.githubusercontent.com/u/40303160?s=40&v=4"
 
 [article]
 math = false
@@ -75,7 +75,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "giscus"
 
 [comments.disqusjs]
 shortname = ""
@@ -126,13 +126,14 @@ serverName = "cactus.chat"
 siteName = ""
 
 [comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
+repo = "Ccl-viva/Ccl-viva.github.io"
+repoID = "R_kgDOJo6eKA"
+category = "General"
+categoryID = "DIC_kwDOJo6eKM4CW1eg"
+mapping = "pathname"
+theme ="preferred_color_scheme"
+# lightTheme = ""
+#darkTheme = ""
 reactionsEnabled = 1
 emitMetadata = 0
 
